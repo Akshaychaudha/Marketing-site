@@ -1,0 +1,131 @@
+
+body{
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 100%;
+    font-family: 'mont-heavy-demo', sans-serif;
+}
+img{
+    max-width: 100%;
+       
+}
+button,a,p,label,h6,h5,small{
+  font-family: 'brown-regular', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    margin:0;
+    padding:0;
+}
+a{
+    margin-bottom:0;
+}
+h1{
+    font-size: 42px;
+  font-weight: 900;
+  line-height: 1.24;
+  letter-spacing: 1.33px;
+  color: #232937;
+}
+h2{
+    font-size: 36px;
+  font-weight: 900;
+  line-height: 1.33;
+  color: #232937;
+}
+h3{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 1.25px;
+    color: #15283b;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #232937;
+}
+h5{
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.02px;
+    color: #fff;
+    }
+h6{
+    font-size: 16px;
+  line-height: 1.63;
+  color: #232937;
+}
+p{
+    font-size: 18px;
+    line-height: 1.67;
+    color: #4a4a4a;
+}
+button{
+   font-size: 16px;
+   font-weight: bold;
+   letter-spacing: 1px;
+    color: #fff;
+    padding: 24px 35px 23px;
+    background-color: #00a4bd;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+  background-color: #345c63;
+  
+}
+a {
+  font-size: 14px;      
+  color: #232937;
+  text-decoration: none;
+  }
+  
+  strong{
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 3.03px;
+    color: #232937;
+  }
+  b{
+    font-size: 16px;
+  font-weight: bold;
+  line-height: 1.63;
+  letter-spacing: 1px;
+  color: #232937;
+  }
+small{
+    font-size: 14px;
+  color: #232937;
+}
+address{
+    font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.3px;
+  color: #fff;
+}
+input::placeholder{
+  font-family: 'brown-regular', sans-serif;
+    font-size: 14px;
+  color: #818181;
+}
+header .box-3 input::placeholder{
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+label{
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+
+
+

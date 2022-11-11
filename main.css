@@ -1,0 +1,1153 @@
+input[type=text]:focus {
+  background-color: none;
+  color: black;
+  border: 2px solid black;
+}
+
+
+.header{
+    padding: 50px 0;
+    position: relative;
+    z-index: 0;
+}
+.header::before{
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background-color: #f8f8f9;
+    background-position: right;
+    background-size: contain;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+
+}
+.header .col-1 a{
+    font-size: 12px;
+  line-height: 1.33;
+  padding: 0;
+  text-decoration: underline;
+} 
+.header .image-cont{
+    display: inline;
+}
+.header .image-cont2{
+    display: inline;
+    float: left;
+    padding: 200px 0 23px;
+} 
+#color-1{
+    color: #f8761f;
+}
+.header .image-cont3{
+    padding: 50px 0 0px;
+}
+.header .col-1 .para-cont{
+    padding: 11px 0;
+    max-width: 548px;
+}
+.header .col-1 .text{
+    display: block;
+    clear: left;
+}
+    /* form-1 */
+
+
+.header .col-2 .form-1{
+    padding: 113px 0 0 50px;
+}
+ input[type=text]{
+    width: 100%;
+    padding: 11px 0px 12px 16px;
+   border-radius: 2px;
+   border: solid 1px #bdc4c9;
+  background-color: #fff;
+  cursor: text;
+}
+ input[type=radio] {
+    border: solid 1px #bdc4c9;
+    cursor: pointer;
+ 
+}
+ input[type=submit] {
+    padding: 14px 32px;
+  background-color: #00a4bd;
+  color: white;
+  border: none;
+  display: inline;
+  font-family: 'brown-regular', sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+ letter-spacing: 1px;
+ cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #345c63;
+}
+.agency input[type=radio]{
+    accent-color: #bdc4c9;
+}
+ input[type=radio]{
+  accent-color: #00a4bd;
+}
+.form-1 p{
+  font-size: 12px;
+line-height: 1.5;
+color: #232937;
+}
+ .box-1{
+    border-radius: 2px;
+  border: solid 1px #bdc4c9;
+  background-color: #fff;
+  margin-bottom: 35px;
+  padding: 13px 10px 19px 13px;
+}
+ .box-2{
+    border-radius: 2px;
+  border: solid 1px #bdc4c9;
+  background-color: #fff;
+  margin-bottom: 35px;
+  padding: 13px 36px 19px 13px;
+}
+ .box-3 input[type=text]{
+    height: 100px;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 11px;
+    border: solid 1px #bdc4c9;
+    border-bottom: none;
+}
+
+.header .col-2 .para-cont{
+    padding: 10px 0 0 20px;
+}
+
+.header .col-2 .heading-cont{
+    padding-bottom: 20px;
+}
+
+ .bottom-line{
+    padding: 8.7px 0px 6.3px 27.7px;
+  border-radius: 2px;
+  background-color: #f6fbff;
+  border: solid 1px #bdc4c9;
+  border-top: none;
+}
+ .border-1{
+    border-right: solid 1px #bdc4c9;;
+}
+ a{
+    padding: 0 10px;
+}
+ .agency label{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #000;
+  }
+ .button-1{
+    border: dashed 1px #979797;
+    background-color: #fff
+}
+ .text-cont a{
+    text-decoration: underline;
+    line-height: 1.86; 
+    margin: auto;
+    padding: 0;
+}
+.header .text-cont{
+    display: inline;
+    padding-top: 10px;
+}
+
+
+.header .c{
+  padding-top: 30px;
+}
+
+ .header .c-2 .button-cont{
+  display: inline;
+  text-align: right;
+}
+.header .c-2 .button-cont input{
+  display: inline;
+}
+
+
+.section-1{
+    padding: 100px 0;
+   
+}
+.section-1 .right-col{
+    margin: 0;
+    padding-left: 58px;
+    padding-top: 124px;
+    position: relative;
+    z-index: 1;
+    width: 51%;
+}
+.section-1 .right-col::before{
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background-color: #f8f8f9;
+   
+}
+.section-1 .right-col::before{
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background-image: url("/picture/s1/group-7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+}
+.section-1 .para-cont{
+    padding: 30px 0 60px;
+}
+.section-1 .left-col{
+    padding: 20px 54px 40px 41px;
+    background-color: #1a425a;
+}
+.section-1 .left-col .heading-cont{
+    padding: 18px 0 18px 23px;
+    border-bottom: 1px solid #fafafa;
+}
+.section-1 .left-col .heading-cont1{
+    padding: 18px 0 0 23px;
+    border-bottom: none;
+}
+.section-1 .right-col .h6-cont{
+    padding: 25px 0 53px;
+}
+.section-1 .right-col .button-cont{
+    padding-top: 20px;
+    overflow: hidden;
+    text-align: right;
+}
+.section-2{
+    padding: 148px 0;
+}
+.section-2 .left-col .para-cont{
+    padding: 25px 0 30px;
+    border-bottom: solid 1px #bdc4c9;
+    width: 95%;
+}
+.section-2 .left-col .button-cont{
+    padding-top: 125px;
+}
+.section-2 .right-col .box-1{
+    padding: 30px;
+    box-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px;
+}
+.section-2 .left-col p{
+    font-size: 20px;
+  line-height: 1.7;
+  letter-spacing: normal;
+}
+.section-2 .right-col p{
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.3px;
+    color: #232937;
+}
+.section-2 .right-col .para-cont{
+    padding-top: 16px;
+}
+.section-2 .right-col .para-cont1{
+    padding-top: 13px;
+}
+.section-2 .right-col .para-cont2{
+    padding-top: 30px;
+}
+.section-3{
+    background-color: #f8f8f9;
+    text-align: center;
+    padding: 100px 0;
+}
+.section-3 .para-cont{
+    padding: 30px 0 70px;
+    margin: 0 auto;
+}
+.section-3 p{
+    margin: auto;
+    font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #232937;
+}
+.section-3 .h4-cont{
+    padding-top: 22px;
+}
+.section-4 {
+    padding: 150px 0;
+}
+.section-4 .heading-cont{
+    padding: 10px 0 26px;
+    border-bottom: solid 1px #232937;
+}
+.section-4 .para-cont1{
+    padding: 46px 0 15px;
+}
+.section-4 .para-cont{
+    padding-bottom: 15px;
+}
+.section-4 .button-cont{
+    text-align: center;
+    padding-top: 90px;
+}
+.section-4 .para-1{
+    padding-left: 22px;
+}
+ .section-4 .para-2{
+    padding-left: 0px;
+    position: relative;
+    z-index: 1;
+}
+.section-4 .para-2::before{
+    
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background-image: url("/picture/tick-with-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    left: -20px;
+    top: 0;
+}
+
+.section-5{
+    padding: 100px 0;
+    background-color: #f8f8f9;
+}
+.section-5 .image-cont{
+   display: inline;
+   float: right;
+}
+.section-5 img{
+  display: inline;
+}
+.section-5 .heading-cont{
+    padding-bottom: 51px;
+}
+.section-5 .col-1{
+    background-color: #d7f7f5;
+    padding: 30px 26px 35px 30px;
+}
+.section-5 .col-2{
+    background-color: #fbe6e6;
+    padding: 30px 26px 35px 30px;
+}
+.section-5 .col-3{
+    background-color: #eee0ff;
+    padding: 30px 26px 35px 30px;
+}
+.section-5 p{
+    font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.5px;
+}
+.section-5 .small-cont{
+    padding-top: 6px;
+}
+.section-5 .para-cont{
+    padding-top: 21px;
+}
+
+
+ /* .section-6 */
+
+ .section-6{
+  padding: 150px 0 125px;
+} 
+.section-6 .form-1{
+    width: 40%;
+    margin: auto;
+}
+
+.section-6 .para-cont{
+    padding: 10px 0 0 20px;
+}
+.section-6 p{
+  line-height: 1.33;
+}
+
+.section-6 .text-cont{
+    padding-top: 10px;
+}
+.section-6 .button-cont{
+   margin: auto;
+    padding-top: 45px;
+}
+
+.section-6 .agency {
+    padding: 35px 0;
+}
+.section-6 .agency input[type=radio]{
+    margin-left: 50px;
+}
+
+.section-6 .text-cont a{
+    font-size: 14px;
+  letter-spacing: 0.88px;
+  color: #232937;
+}
+.section-6 .button-cont{
+    text-align: center;
+}
+.section-6 .agency label{
+    color: #3d464d;
+  }
+  .section-6 .box-1 label{
+      color: #818181;
+  }
+  .section-6 .box-2 label{
+    color: #818181;
+  }
+  
+
+footer{
+    padding: 24px 229px 25px 228px;
+    background-color: #232937;
+}
+footer img{
+    padding: 0 5px;
+   float: right;
+}
+footer .image-1{
+    display: block;
+} 
+footer col{
+  display: inline;
+}
+footer .col-1{
+  display: block;
+ 
+}
+footer ul{
+  padding-left: 0;
+}
+footer .col-2{
+  display: inline;
+}
+footer li{
+  display: inline;
+  float: left;
+
+}
+footer address{
+  padding:0 10px;
+  display: inline;
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    h1{
+      font-size: 38px;
+  }
+  h2{
+      font-size: 32px;
+  }
+  /* h3{
+      font-size: 40px;
+  } */
+  
+  h4{
+      font-size: 20px;
+  }
+  h5{
+      font-size: 18px;
+  }
+  h6{
+      font-size: 16px;
+    
+  }
+  p{
+      font-size: 18px;
+     
+  }
+  button{
+     font-size: 14px;
+     padding: 15px 20px;
+  }
+  a {
+      
+    font-size: 14px;      
+   
+    }
+    
+    strong{
+      font-size: 14px;
+     
+    }
+    b{
+      font-size: 16px;
+    
+    }
+  small{
+      font-size: 14px;
+  }
+  address{
+      font-size: 16px;
+  }
+  input::placeholder{
+      font-size: 14px;
+  }
+  
+  label{
+    font-size: 14px;
+  }
+  .header p{
+    font-size: 12px;
+  }
+  .header{
+    padding: 40px 0;
+  }
+  
+  .header .col-1 a{
+    font-size: 12px;
+  } 
+  
+  .header .image-cont2{
+    padding: 150px 0 20px;
+  } 
+  
+  .header .image-cont3{
+    padding: 40px 0 0px;
+  }
+  .header .col-1 .para-cont{
+    padding: 11px 0;
+  }
+  .header .col-2 .form-1{
+    padding: 80px 0 0 20px;
+  }
+   input[type=text]{
+    padding: 11px 0px 12px 16px;
+  }
+  
+  .box-1{
+  margin-bottom: 30px;
+  padding: 13px 10px 19px 13px;
+  }
+ .box-2{
+  margin-bottom: 30px;
+  padding: 13px 36px 19px 13px;
+  }
+  .box-3 input[type=text]{
+    height: 70px;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 11px;
+   
+  }
+  .form-1 .para-cont{
+    padding: 10px 0 0 20px;
+  }
+ 
+  .header .col-2 .heading-cont{
+    padding-bottom: 20px;
+  }
+  
+  .form-1 .bottom-line{
+    padding: 8.7px 0px 6.3px 27.7px;
+  }
+  .form-1 a{
+    padding: 0 10px;
+  }
+  .header .agency label{
+    font-size: 16px;
+  }
+  
+  .header .c{
+    padding-top: 30px;
+  }
+  .header .c-1 .text-cont a{
+   font-size: 12px;
+   padding-top: 0;
+   padding: 0;
+  }
+   .header .c-2 .button-cont{
+    display: inline;
+    text-align: right;
+  }
+  .header .c-2 .button-cont input{
+    display: inline;
+  }
+ 
+  .header input[type=submit] {
+    padding: 10px 20px;
+  font-size: 12px;
+  }
+  .section-1{
+    padding: 60px 0;
+   
+  }
+  .section-1 .right-col{
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 124px;
+    width: 51%;
+  }
+  .section-1 .para-cont{
+    padding: 20px 0 40px;
+  }
+  .section-1 .left-col{
+    padding: 15px 40px 30px 20px;
+  }
+  .section-1 .left-col .heading-cont{
+    padding: 15px 0 15px 23px;
+  }
+  .section-1 .left-col .heading-cont1{
+    padding: 15px 0 0 23px;
+  }
+  .section-1 .right-col .h6-cont{
+    padding: 25px 0 53px;
+  }
+  .section-1 .right-col .button-cont{
+    padding-top: 20px;
+  }
+  .section-2{
+    padding: 100px 0;
+  }
+  .section-2 .left-col .para-cont{
+    padding: 25px 0 30px;
+    width: 95%;
+  }
+  .section-2 .left-col .button-cont{
+    padding-top: 100px;
+  }
+  .section-2 .right-col .box-1{
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  .section-2 .left-col p{
+    font-size: 16px;
+  }
+  .section-2 .right-col p{
+    font-size: 14px;
+  }
+  .section-2 .right-col .para-cont{
+    padding-top: 13px;
+  }
+  .section-2 .right-col .para-cont1{
+    padding-top: 10px;
+  }
+  .section-2 .right-col .para-cont2{
+    padding-top: 30px;
+  }
+  .section-3{
+    padding: 80px 0;
+  }
+  .section-3 .para-cont{
+    padding: 20px 0 40px;
+  }
+  .section-3 p{
+    font-size: 20px;
+  }
+  .section-3 .h4-cont{
+    padding-top: 15px;
+  }
+  .section-4 {
+    padding: 80px 0;
+  }
+  .section-4 .heading-cont{
+    padding: 8px 0 20px;
+  }
+  .section-4 .para-cont1{
+    padding: 40px 0 15px;
+  }
+  .section-4 .para-cont{
+    padding-bottom: 15px;
+  }
+  .section-4 .button-cont{
+    padding-top: 60px;
+  }
+  .section-4 .para-1{
+    padding-left: 22px;
+  }
+  
+  
+  .section-5{
+    padding: 60px 0;
+  }
+  
+  .section-5 .heading-cont{
+    padding-bottom: 31px;
+  }
+  .section-5 .image-cont{
+    display: inline;
+    }
+    .section-5 .image-1{
+        display: inline;
+        float: right;
+    }
+  .section-5 .col-1{
+    padding: 20px 15px 30px 15px;
+  }
+  .section-5 .col-2{
+    padding: 20px 15px 30px 15px;
+  }
+  .section-5 .col-3{
+    padding: 20px 15px 30px 15px;
+  }
+  .section-5 p{
+    font-size: 14px;
+  }
+  .section-5 .small-cont{
+    padding-top: 6px;
+  }
+  .section-5 .para-cont{
+    padding-top: 21px;
+  }
+
+
+  .section-6{
+    padding: 100px 0 80px;
+  }
+  .section-6 .form-1{
+    width: 50%;
+    margin: auto;
+  }
+  .section-6 p{
+    font-size: 12px;
+  }
+  
+  .section-6 .text-cont{
+    padding-top: 10px;
+  }
+  .section-6 .button-cont{
+    margin: auto;
+    padding-top: 45px;
+  }
+  .section-6 input[type=submit] {
+    padding: 15px 40px 15px;
+  font-size: 16px;
+  } 
+  .section-6 .agency {
+    padding: 25px 0;
+  }
+  .section-6 .agency input[type=radio]{
+    padding-left: 30px;
+  }
+  .section-6 .text-cont a{
+    font-size: 14px;
+  }
+  .section-6 .agency label{
+    font-size: 16px;
+  }
+  
+  footer{
+    padding: 24px 100px;
+}
+footer img{
+    padding: 0 5px;
+}
+
+footer address{
+  padding:0 5px;
+  
+}
+  
+  
+  }
+  @media(max-width:767px){
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    /* h3{
+        font-size: 40px;
+    } */
+    
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h6{
+        font-size: 18px;
+      
+    }
+    p{
+        font-size: 16px;
+       
+    }
+    button{
+       font-size: 12px;
+       padding: 10px 15px;
+      
+    }
+    a {
+        
+      font-size: 14px;      
+     
+      }
+      
+      strong{
+        font-size: 14px;
+       
+      }
+      b{
+        font-size: 16px;
+      
+      }
+    small{
+        font-size: 14px;
+    }
+    address{
+        font-size: 16px;
+    }
+    input::placeholder{
+        font-size: 14px;
+    }
+    
+    label{
+      font-size: 14px;
+    }
+    .header p{
+      font-size: 12px;
+    }
+    .header{
+      padding: 30px 0;
+    }
+    .header::before{
+    background: none;
+    
+    }
+    
+      .header .col-2{
+        margin-top: 40px;
+        background-color: #f8f8f9;
+      }
+
+    .header .col-1 a{
+      font-size: 12px;
+    } 
+    
+    .header .image-cont2{
+      padding: 80px 0 20px;
+    } 
+    
+    .header .image-cont3{
+      padding: 40px 0 0px;
+    }
+    .header .col-1 .para-cont{
+      padding: 11px 0;
+      max-width: 100%;
+    }
+
+    .header .col-2 .form-1{
+      padding: 80px 20 20 20px;
+    }
+    .form-1 #name{
+      margin-bottom: 20px;
+    }
+    .form-1 input[type=text]{
+      width: 100%;
+      padding: 11px 0px 12px 16px;
+    }
+    
+    .header input[type=submit] {
+      padding: 12px 25px;
+    font-size: 14px;
+    }
+    
+    .form-1 .box-1{
+    margin-bottom: 30px;
+    padding: 13px 10px 19px 13px;
+    }
+    .form-1 .box-2{
+    margin-bottom: 30px;
+    padding: 13px 10px 19px 13px;
+    }
+    .form-1 .box-3 input[type=text]{
+      height: 70px;
+      width: 100%;
+      padding-left: 15px;
+      padding-top: 11px;
+     
+    }
+    .form-1 .box-1 label{
+      font-size: 14px;
+    }
+    .form-1 .box-2 label{
+      font-size: 14px;
+    }
+    .form-1 .para-cont{
+      padding: 10px 0 0 20px;
+    }
+    .form-1 .heading-cont{
+      padding-bottom: 20px;
+    }
+    
+    .form-1 .bottom-line{
+      padding: 8.7px 0px 6.3px 2px;
+    }
+    .form-1 a{
+      padding: 0 2px;
+    }
+    .header .agency label{
+      font-size: 16px;
+    }
+    .header .col-2 .text-cont{
+      display: block;
+    }
+    .header .col-2 .button-cont{
+        text-align: center;
+      display: block;
+    } 
+    .header .col-2 .text-cont a{
+      display: block;
+    }
+    .header .col-2 .button-cont input{
+      display: block; 
+    }
+    .header .c{
+      padding-top: 20px;
+    }
+    .header .c-1 .text-cont a{
+     font-size: 14px;
+    }
+     .header .c-2 .button-cont{
+      display: block;
+      padding-top: 20px;
+      
+    }
+    .header .c-2 .button-cont input{
+      display: block;
+    }
+    .header input[type=submit] {
+      padding: 10px 20px;
+    font-size: 12px;
+    margin: 0 auto;
+      text-align: center;
+    }
+    
+    .section-1{
+      padding: 40px 0;
+     
+    }
+    .section-1 .right-col{
+      margin: 0;
+      padding: 40px 0 0;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .section-1 .para-cont{
+      padding: 10px 0 20px;
+    }
+    .section-1 .left-col{
+      padding: 15px 20px;
+    }
+    .section-1 .left-col .heading-cont{
+      padding: 15px 0 15px 23px;
+    }
+    .section-1 .left-col .heading-cont1{
+      padding: 15px 0 15px 23px;
+    }
+    .section-1 .right-col .h6-cont{
+      padding: 15px 0 40px;
+    }
+    .section-1 .right-col .button-cont{
+      padding-top: 20px;
+      text-align: center;
+      
+    }
+    .section-2{
+      padding: 40px 0;
+    }
+    .section-2 .left-col .para-cont{
+      padding: 15px 0 20px;
+      width: 95%;
+    }
+    .section-2 .left-col .button-cont{
+      padding-top: 40px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .section-2 .right-col .box-1{
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+    .section-2 .left-col p{
+      font-size: 14px;
+    }
+    .section-2 .right-col p{
+      font-size: 12px;
+    }
+    .section-2 .right-col .para-cont{
+      padding-top: 13px;
+    }
+    .section-2 .right-col .para-cont1{
+      padding-top: 10px;
+    }
+    .section-2 .right-col .para-cont2{
+      padding-top: 10px;
+    }
+    .section-3{
+      padding: 40px 0;
+    }
+    .section-3 .para-cont{
+      padding: 10px 0 20px;
+    }
+    .section-3 p{
+      font-size: 16px;
+    }
+    .section-3 .h4-cont{
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+    .section-4 {
+      padding: 40px 0;
+    }
+    .section-4 .col-2{
+        padding-top: 60px;
+    }
+    .section-4 .heading-cont{
+      padding: 8px 0 20px;
+    }
+    .section-4 .para-cont1{
+      padding: 20px 0 10px;
+    }
+    .section-4 .para-cont{
+      padding-bottom: 10px;
+    }
+    .section-4 .button-cont{
+      padding-top: 40px;
+    }
+    .section-4 .para-1{
+      padding-left: 22px;
+    }
+    .section-5{
+      padding: 40px 0;
+    }
+   
+    .section-5 .col{
+        display: inline;
+    }
+    .section-5 .c-1.span7.vertical-center{
+      display: inline;
+     
+  }
+    .section-5 .c-2.span5.vertical-center{
+        display: inline;
+        float: right;
+    }
+    
+    .section-5 .c-1 .heading-cont{
+      padding-bottom: 31px;
+      display: inline;
+    }
+    
+    .section-5 .col-1{
+      padding: 20px 15px 30px 15px;
+    }
+    .section-5 .col-2{
+        margin-top: 20px;
+      padding: 20px 15px 30px 15px;
+    }
+    .section-5 .col-3{
+        margin-top: 20px;
+      padding: 20px 15px 30px 15px;
+    }
+    .section-5 p{
+      font-size: 12px;
+    }
+    .section-5 .small-cont{
+      padding-top: 6px;
+      display: inline;
+    }
+    .section-5 .para-cont{
+      padding-top: 10px;
+    }
+    .section-6{
+      padding: 40px 0 80px;
+    }
+    .section-6 .form-1{
+      width: 100%;
+      margin: auto;
+    }
+
+    .section-6 .para-cont{
+      padding: 10px 0 0 20px;
+    }
+    .section-6 p{
+      font-size: 12px;
+    }
+    
+    .section-6 .text-cont{
+      padding-top: 10px;
+    }
+    .section-6 .button-cont{
+      margin: auto;
+      padding-top: 45px;
+    }
+    
+    
+    .section-6 input[type=submit] {
+      padding: 15px 40px 15px;
+    font-size: 16px;
+    } 
+    .section-6 .agency {
+      padding: 10px 0;
+    }
+    .section-6 .agency input[type=radio] {
+      margin-left: 5px;
+    }
+    
+    .section-6 .text-cont a{
+      font-size: 14px;
+    }
+    .section-6 .agency label{
+      font-size: 14px;
+    }
+    
+    footer{
+      padding: 10px 20px;
+      background-color: #232937;
+  }
+  footer img{
+      padding: 0 10px;
+     float: none;
+    
+  }
+  footer .image-1{
+      display: block;
+      text-align: center;
+  } 
+  footer col{
+    display: block;
+  }
+  footer .col-1{
+    display: block;
+  }
+ 
+  footer .col-2{
+    display: block;
+  }
+  footer li{
+    display: block;
+    float: none;
+    text-align: center;
+  
+  }
+  footer address{
+    padding:0 0px;
+    display: block;
+  }
+  
+    
+}
